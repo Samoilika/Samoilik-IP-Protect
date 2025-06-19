@@ -10,62 +10,88 @@ Samoilik IP Protect - Скрывает свои IP адреса от посто�
 
 Откройте браузер и перейдите на страницу расширений:
 
+
 Chrome: введите chrome://extensions/ в адресной строке
 
 Edge: введите edge://extensions/ в адресной строке
 
 Яндекс: введите browser://extensions/ в адресной строке
 
+
 Включите "Режим разработчика":
+
 
 В правом верхнем углу страницы найдите переключатель "Режим разработчика"
 
+
 Переведите его в положение "Включено"
+
 
 Нажмите кнопку "Загрузить распакованное расширение":
 
+
 Появится диалоговое окно выбора папки
+
 
 Выберите папку с распакованными файлами расширения
 
+
 Подтвердите установку:
+
 
 Расширение появится в списке установленных
 
+
 Его иконка (🛡️) отобразится в правом верхнем углу браузера
+
 
 Проверьте работу:
 
+
 Нажмите на иконку расширения
+
 
 Должно открыться окно со случайной строкой эмодзи
 
+
 Переключатель должен быть в положении "Включено"
+
 
 Для Mozilla Firefox
 Скачайте архив с расширением с GitHub и распакуйте его
 
+
 Откройте Firefox и введите about:debugging в адресной строке
+
 
 Перейдите на вкладку "Этот Firefox" в левом меню
 
+
 Нажмите кнопку "Загрузить временное дополнение..."
+
 
 В открывшемся окне выберите файл manifest.json из папки с расширением
 
+
 Расширение будет установлено временно (до перезагрузки браузера)
+
 
 Для постоянной установки:
 
+
 Перейдите на страницу Firefox Add-ons Developer Hub
+
 
 Создайте ZIP-архив папки с расширением
 
+
 Загрузите архив и следуйте инструкциям для подписания расширения
+
 
 On English
 For Chromium-based browsers (Google Chrome, Microsoft Edge, Yandex Browser)
 Download the extension archive from GitHub and extract it to a separate folder
+
 
 Open your browser and go to extensions page:
 
@@ -75,52 +101,75 @@ Edge: type edge://extensions/ in address bar
 
 Yandex: type browser://extensions/ in address bar
 
+
 Enable "Developer mode":
+
 
 Find the "Developer mode" toggle in the top right corner
 
+
 Switch it to "On" position
+
 
 Click "Load unpacked" button:
 
+
 A folder selection dialog will appear
+
 
 Select the folder with the extracted extension files
 
+
 Confirm installation:
+
 
 The extension will appear in your extensions list
 
+
 Its icon (🛡️) will appear in the browser toolbar
+
 
 Verify functionality:
 
+
 Click the extension icon
+
 
 A popup with a random emoji line should appear
 
+
 The toggle switch should be in "On" position
+
 
 For Mozilla Firefox
 Download the extension archive from GitHub and extract it
 
 Open Firefox and type about:debugging in address bar
 
+
 Navigate to "This Firefox" tab in the left menu
+
 
 Click "Load Temporary Add-on..." button
 
+
 In the file dialog, select manifest.json from the extension folder
+
 
 The extension will be installed temporarily (until browser restart)
 
+
 For permanent installation:
+
 
 Go to Firefox Add-ons Developer Hub
 
+
 Create a ZIP archive of the extension folder
 
+
 Upload the archive and follow instructions to sign the extension
+
 
 Примечания / Notes
 Важно: В Chrome и Edge расширение будет работать постоянно после установки. В Firefox при временной установке его нужно будет загружать заново после каждого перезапуска браузера.
