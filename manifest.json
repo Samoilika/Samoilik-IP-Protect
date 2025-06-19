@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "Samoilik IP Protect",
+  "version": "1.0",
+  "description": "Защита вашего IP-адреса с возможностью включения/выключения",
+  "permissions": ["storage", "webRequest", "webRequestBlocking", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
